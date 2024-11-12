@@ -14,7 +14,7 @@ import os
 from langchain_groq import ChatGroq
 from langchain.prompts import ChatPromptTemplate
 
-api_key = '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'
+api_key = 'SUA API AQUI'
 os.environ['GROQ_API_KEY'] = api_key
 
 chat = ChatGroq(model='llama-3.1-70b-versatile')
